@@ -8,7 +8,6 @@ This dashboard helps stakeholders monitor key business metrics by comparing actu
 
 ## 📂 Project Structure
 
-```
 Sales_Dashboard/
 │
 ├── Sales_Dashboard.pbix      # Power BI Dashboard File
@@ -33,8 +32,6 @@ If you move the project files:
 * Update the Excel file path
 * Apply changes and refresh the data
 
----
-
 ## 📊 Data Source
 
 **File:** `Sales_data.xlsx`
@@ -49,7 +46,6 @@ If you move the project files:
 * Customer and product performance metrics
 * Regional sales information
 
----
 
 ## 🎨 Dashboard Views
 
@@ -71,8 +67,6 @@ Advanced analytics powered by Power BI AI capabilities:
 * Trend detection
 * Performance recommendations
 * Anomaly identification
-
----
 
 ## 🔧 How to Use
 
@@ -100,8 +94,6 @@ To update the dashboard:
 
 Power BI allows exporting reports and visualizations for sharing and presentations.
 
----
-
 ## 📱 Supported Platforms
 
 * 💻 Power BI Desktop
@@ -123,16 +115,12 @@ Power BI allows exporting reports and visualizations for sharing and presentatio
 * Sales Trends
 * Time-Based Comparisons
 
----
-
 ## 📚 Resources
 
 * Power BI Documentation
 * Power BI Desktop
 * Microsoft Learn
 * Excel Data Import Guide
-
----
 
 ## 🤝 Contributing
 
@@ -145,13 +133,9 @@ You can help by:
 * Improving visualizations
 * Submitting pull requests
 
----
-
 ## 📝 License
 
 This project is licensed under the MIT License.
-
----
 
 ## 👤 Author
 
@@ -159,8 +143,6 @@ This project is licensed under the MIT License.
 
 * LinkedIn: Add Your LinkedIn Profile
 * GitHub: Add Your GitHub Profile
-
----
 
 ## 📞 Support
 
@@ -170,15 +152,11 @@ If you have questions or suggestions:
 * Review the documentation
 * Submit enhancement requests
 
----
-
 ## 🎓 Tips for Best Experience
 
 * Review the data structure in `Sales_data.xlsx` before modifying the dashboard.
 * Start with the overview page to understand overall performance.
 * Use filters and slicers for focused analysis.
 * Explore AI visuals to discover hidden trends and insights.
-
----
 
 ⭐ If you find this project useful, consider giving the repository a star!
