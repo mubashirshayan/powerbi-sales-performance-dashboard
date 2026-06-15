@@ -1,123 +1,184 @@
-# Power BI Sales Performance Dashboard
+# 📊 Power BI Sales Performance Dashboard
 
-A comprehensive Power BI dashboard designed to track and analyze sales performance metrics, budget vs. actual comparisons, and AI-powered visual insights.
+An interactive Power BI dashboard designed to analyze sales performance, budget utilization, profitability, customer behavior, and regional trends. This project provides actionable business insights through dynamic visualizations and advanced analytics.
 
-## 📊 Overview
+## 🚀 Project Overview
 
-This dashboard provides real-time visualization and analysis of sales data with interactive features for monitoring key performance indicators (KPIs), budget tracking, and performance trends.
+This dashboard helps stakeholders monitor key business metrics by comparing actual sales performance against planned targets. It includes interactive reports, drill-down capabilities, and AI-powered insights for data-driven decision-making.
 
-## 📁 Project Structure
-Sales_dashboard/
-├── Sales_Dashboard.pbix # Main Power BI dashboard file ├── Sales_data.xlsx # Source data file with sales information └── Dashboard_Pics/ ├── AIVisuals.png # AI-powered visualizations preview └── BudgetVsActual.png # Budget vs Actual comparison view
-## 🎯 Key Features
+## 📂 Project Structure
 
-- **Sales Performance Tracking**: Monitor sales metrics and trends over time
-- **Budget vs Actual Analysis**: Compare planned budgets with actual performance
-- **AI-Powered Visuals**: Advanced analytics and insights using AI capabilities
-- **Interactive Dashboards**: Drill-down capabilities and dynamic filtering
-- **Real-time Data Updates**: Connected to sales data source for current metrics
+```
+Sales_Dashboard/
+│
+├── Sales_Dashboard.pbix      # Power BI Dashboard File
+├── Sales_data.xlsx           # Source Data
+└── README.md                 # Project Documentation
+```
 
-## 📈 Dashboard Components
+## 🛠️ Getting Started
 
-### 1. Sales Performance
-Track sales figures, growth rates, and performance against targets.
+### 1. Open the Dashboard
 
-### 2. Budget vs Actual
-Visual comparison showing:
-- Planned budget allocations
-- Actual spending/revenue
-- Variance analysis
-- Budget performance trends
+Open `Sales_Dashboard.pbix` using Power BI Desktop.
 
-### 3. AI Visuals
-Advanced analytics powered by AI including:
-- Predictive insights
-- Anomaly detection
-- Pattern recognition
-- Automated recommendations
+### 2. Update Data Source (If Needed)
 
-## 🚀 Getting Started
+The dashboard uses `Sales_data.xlsx` as its data source.
 
-### Prerequisites
-- **Microsoft Power BI Desktop** (for editing) or **Power BI Service** (for viewing)
-- **Excel** (to view or edit source data)
+If you move the project files:
 
-### Installation
+* Open Power BI Desktop
+* Navigate to **Transform Data → Data Source Settings**
+* Update the Excel file path
+* Apply changes and refresh the data
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/mubashirshayan/powerbi-sales-performance-dashboard.git
-Open the dashboard:
+---
 
-Open Sales_dashboard/Sales_Dashboard.pbix in Power BI Desktop
-Update data source (if needed):
+## 📊 Data Source
 
-The dashboard uses Sales_data.xlsx as the source
-Update the file path in Power BI if you move the files
-📊 Data Source
-File: Sales_dashboard/Sales_data.xlsx
-Format: Excel workbook
-Contains: Sales transaction data, budget information, and performance metrics
-🎨 Dashboard Views
-Budget vs Actual View
-Comprehensive visualization comparing planned versus actual performance metrics across different dimensions.
+**File:** `Sales_data.xlsx`
 
-AI Visuals View
-Advanced analytics dashboard featuring:
+**Format:** Excel Workbook
 
-Automated insights
-Predictive analytics
-Key trend identification
-Performance recommendations
-🔧 How to Use
-Open the Dashboard: Launch Power BI Desktop and open Sales_Dashboard.pbix
-Interact with Visuals: Click on charts and metrics to filter data
-Drill Down: Use drill-down capabilities to explore detailed information
-Refresh Data: Update the data connection to see latest sales figures
-Export Reports: Generate reports from the dashboard views
-📱 Supported Views
-Desktop Power BI (for full editing and interaction)
-Power BI Web (for sharing and collaboration)
-Power BI Mobile (for on-the-go access)
-🔄 Updating Data
-To refresh the dashboard with new sales data:
+**Contains:**
 
-Update the Sales_data.xlsx file with new sales information
-In Power BI, go to Home > Refresh
-The dashboard will automatically update with the latest data
-📌 Key Metrics Tracked
-Total Sales Revenue
-Budget Allocation
-Actual Spending
-Budget Variance
-Performance Trends
-Regional Performance
-Product Performance
-Time-based Comparisons
-📚 Additional Resources
-Power BI Documentation
-Power BI Desktop Download
-Excel Data Format Guide
-🤝 Contributing
-Contributions are welcome! Please feel free to:
+* Sales transaction records
+* Budget information
+* Profit and expense data
+* Customer and product performance metrics
+* Regional sales information
 
-Report issues
-Suggest improvements
-Submit pull requests with enhancements
-📝 License
-This project is available under the MIT License.
+---
 
-👤 Author
-Mubashir Shayan
+## 🎨 Dashboard Views
 
-📞 Support
-For questions or support regarding this dashboard:
+### 📈 Budget vs Actual View
 
-Open an issue in the repository
-Check existing documentation and guides
-🎓 Getting Started Tips
-Familiarize yourself with the data structure in Sales_data.xlsx
-Start with the main dashboard overview before diving into detailed metrics
-Use the filter pane to customize views for specific analysis needs
-Explore the AI Visuals for automatic insights and recommendations
+Analyze planned versus actual business performance through:
 
+* Sales vs Target comparison
+* Profitability analysis
+* Budget utilization tracking
+* Monthly and yearly trend analysis
+
+### 🤖 AI Visuals View
+
+Advanced analytics powered by Power BI AI capabilities:
+
+* Automated insights
+* Predictive analytics
+* Trend detection
+* Performance recommendations
+* Anomaly identification
+
+---
+
+## 🔧 How to Use
+
+### Interactive Analysis
+
+* Click charts and visuals to cross-filter data
+* Use slicers to customize views
+* Explore performance across products, regions, and time periods
+
+### Drill-Down Analysis
+
+* Navigate from summary metrics to detailed insights
+* Analyze data at multiple levels of granularity
+
+### Refresh Data
+
+To update the dashboard:
+
+1. Update `Sales_data.xlsx`
+2. Open Power BI Desktop
+3. Select **Home → Refresh**
+4. The dashboard will load the latest data automatically
+
+### Export Reports
+
+Power BI allows exporting reports and visualizations for sharing and presentations.
+
+---
+
+## 📱 Supported Platforms
+
+* 💻 Power BI Desktop
+* 🌐 Power BI Service (Web)
+* 📱 Power BI Mobile
+
+---
+
+## 📌 Key Metrics Tracked
+
+* Total Sales Revenue
+* Budget Allocation
+* Actual Spending
+* Profit Analysis
+* Budget Variance
+* Customer Performance
+* Product Performance
+* Regional Performance
+* Sales Trends
+* Time-Based Comparisons
+
+---
+
+## 📚 Resources
+
+* Power BI Documentation
+* Power BI Desktop
+* Microsoft Learn
+* Excel Data Import Guide
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+You can help by:
+
+* Reporting bugs or issues
+* Suggesting new features
+* Improving visualizations
+* Submitting pull requests
+
+---
+
+## 📝 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👤 Author
+
+**Mubashir Shayan**
+
+* LinkedIn: Add Your LinkedIn Profile
+* GitHub: Add Your GitHub Profile
+
+---
+
+## 📞 Support
+
+If you have questions or suggestions:
+
+* Open an issue in this repository
+* Review the documentation
+* Submit enhancement requests
+
+---
+
+## 🎓 Tips for Best Experience
+
+* Review the data structure in `Sales_data.xlsx` before modifying the dashboard.
+* Start with the overview page to understand overall performance.
+* Use filters and slicers for focused analysis.
+* Explore AI visuals to discover hidden trends and insights.
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star!
