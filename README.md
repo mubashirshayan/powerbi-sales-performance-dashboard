@@ -13,7 +13,6 @@ Sales_Dashboard/
 ├── Sales_Dashboard.pbix      # Power BI Dashboard File
 ├── Sales_data.xlsx           # Source Data
 └── README.md                 # Project Documentation
-```
 
 ## 🛠️ Getting Started
 
